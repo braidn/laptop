@@ -125,7 +125,9 @@ brew "qt"
 # Programming languages
 brew "libyaml" # should come after openssl
 brew "chruby"
+brew "nodenv"
 brew "ruby-build"
+brew "node-build"
 
 # Brew Casks
 cask "appcleaner"
