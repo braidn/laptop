@@ -94,6 +94,7 @@ tap "homebrew/services"
 # Unix
 brew "ctags"
 brew "git"
+brew "direnv"
 brew "openssl"
 brew "reattach-to-user-namespace"
 brew "the_silver_searcher"
