@@ -90,6 +90,8 @@ brew bundle --file=- <<EOF
 cask_args appdir: '/Applications'
 tap 'caskroom/cask'
 tap "homebrew/services"
+tap "osx-cross/arm"
+tap "osx-cross/avr"
 
 # Unix
 brew "ctags"
@@ -100,6 +102,9 @@ brew "reattach-to-user-namespace"
 brew "the_silver_searcher"
 brew "tmux"
 brew "zsh"
+brew "z"
+brew "unison"
+brew "ranger"
 brew "neovim/neovim/neovim"
 
 # Heroku
@@ -120,6 +125,14 @@ brew "chruby"
 brew "nodenv"
 brew "ruby-build"
 brew "node-build"
+
+# Keyboard Programming
+brew "arm-gcc-bin"
+brew "avr-binutils"
+brew "avr-gcc"
+brew "avr-libc"
+brew "dfu-util"
+brew "dfu-programmer"
 
 # Brew Casks
 cask "appcleaner"
