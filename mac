@@ -135,6 +135,7 @@ brew "dfu-util"
 brew "dfu-programmer"
 
 # Brew Casks
+cask "docker-beta"
 cask "appcleaner"
 cask "visual-studio-code"
 cask "flux"
